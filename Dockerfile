@@ -32,6 +32,7 @@ RUN source /opt/ros/humble/setup.bash \
 # Copy the necessary package files to spawn the robot in the simulation
 COPY ./fastbot_description/ /ros2_ws/src/fastbot_description
 COPY ./fastbot_gazebo/ /ros2_ws/src/fastbot_gazebo
+COPY ./fastbot_waypoints/ /ros2_ws/src/fastbot_waypoints
 COPY ./entrypoint.sh /ros2_ws/ros2_entrypoint.sh
 
 # Build the Colcon workspace and ensure it's sourced
