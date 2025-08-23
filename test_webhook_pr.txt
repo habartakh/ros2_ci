@@ -1,0 +1,1 @@
+Second test of Jenkins Job activation upon PR on Github. 
